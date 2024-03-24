@@ -1,4 +1,4 @@
-function fixBuzz(max) {
+function fizBuzz(max) {
     let min = 0;
     while (min+1 < max-1) {
         min ++;
@@ -12,4 +12,4 @@ function fixBuzz(max) {
     }
 }
 
-fixBuzz(20);
+fizBuzz(20);
