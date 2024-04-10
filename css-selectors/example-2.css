@@ -1,0 +1,9 @@
+/* Class selector = class name preceded by a period (.) */
+
+.boxy {
+    border-radius: 4px;
+    box-shadow: 0 2px gray; /* offset-x | offset-y | color */
+    filter: blur(2px);
+    background-color: #000000;
+    opacity: 0.2; /* 100% = 1.0 */
+}
