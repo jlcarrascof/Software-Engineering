@@ -1,0 +1,7 @@
+p::before {
+    background-color: lightblue;
+    border-right: 4px solid violet;
+    content: ':-) ';
+    margin-right: 4px;
+    padding-left: 4px;
+}
