@@ -11,4 +11,6 @@
     align-items: flex-end; /* #7 */
     flex-direction: row-reverse; /* #8 */
     flex-direction: column; /* #9 */
+    justify-content: flex-end; /* #10 */
+    flex-direction: row-reverse; /* #10 */
 }
