@@ -1,4 +1,6 @@
 #pond {
     display: flex;
     justify-content: flex-end; /* #1 */
+    justify-content: center; /* #2 */
+
 }
