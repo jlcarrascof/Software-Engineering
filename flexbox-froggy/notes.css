@@ -4,4 +4,5 @@
     justify-content: center; /* #2 */
     justify-content: space-around; /* #3 */
     justify-content: space-between; /* #4 */
+    align-items: flex-end; /* #5 */
 }
