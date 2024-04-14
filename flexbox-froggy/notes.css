@@ -13,4 +13,6 @@
     flex-direction: column; /* #9 */
     justify-content: flex-end; /* #10 */
     flex-direction: row-reverse; /* #10 */
+    flex-direction: column; /* #11 */
+    justify-content: flex-end; /* #11 */
 }
