@@ -10,4 +10,5 @@
     justify-content: space-around; /* #7 */
     align-items: flex-end; /* #7 */
     flex-direction: row-reverse; /* #8 */
+    flex-direction: column; /* #9 */
 }
