@@ -2,5 +2,6 @@
     display: flex;
     justify-content: flex-end; /* #1 */
     justify-content: center; /* #2 */
+    justify-content: space-around; /* #3 */
 
 }
