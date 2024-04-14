@@ -25,3 +25,7 @@
 .yellow {
     order: 1; /* #14 */
 }
+
+.red {
+    order: -1;
+}
