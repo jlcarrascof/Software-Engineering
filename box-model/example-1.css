@@ -1,0 +1,7 @@
+.box {
+    border:  10px solid black; /* Applies to all four sides. */
+    height:  100px; /* Content's height */
+    margin:  50px;  /* Applies to all four sides. */
+    padding: 25px;  /* Applies to all four sides. */
+    width:   250px; /* Content's width */
+}
