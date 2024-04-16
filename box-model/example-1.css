@@ -1,7 +1,20 @@
+/* Standard Box Model - Example 1 */
+
 .box {
     border:  10px solid black; /* Applies to all four sides. */
     height:  100px; /* Content's height */
     margin:  50px;  /* Applies to all four sides. */
     padding: 25px;  /* Applies to all four sides. */
     width:   250px; /* Content's width */
+}
+
+/* Standard Box Model - Example 2 (With box-sizing: border-box) */
+
+.box1 {
+  border:  10px solid black; /* Applies to all four sides. */
+  box-sizing: border-box;
+  height:  100px; /* Sum of content + top/bottom padding + top/bottom border */
+  margin:  50px;  /* Applies to all four sides. */
+  padding: 25px;  /* Applies to all four sides. */
+  width:   250px; /* Sum of content + left/right padding + left/right border */
 }
