@@ -18,3 +18,30 @@
   padding: 25px;  /* Applies to all four sides. */
   width:   250px; /* Sum of content + left/right padding + left/right border */
 }
+
+/* Standard Box Model - Example 3 */
+
+.box-1 {
+    /* One value applies to all four sides. */
+    padding: 3em;
+}
+
+.box-2 {
+    /* Two values: top & bottom | left & right */
+    padding: 20% 5%;
+}
+
+.box-3 {
+    /* Three values: top | left & right | bottom. */
+    padding: 15px 10px 20px;
+}
+
+.box-4 {
+    /* Four values:  top | right | bottom | left*/
+    padding: 0 10px 2em 1em;
+}
+
+.box-5 {
+    /* Global values */
+    padding: inherit;  /* OR initial OR unset */
+}
