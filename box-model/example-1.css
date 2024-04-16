@@ -19,29 +19,44 @@
   width:   250px; /* Sum of content + left/right padding + left/right border */
 }
 
-/* Standard Box Model - Example 3 */
+/* Standard Box Model - Example 3 (using padding shorthand) */
 
+/*
 .box-1 {
-    /* One value applies to all four sides. */
+    // One value applies to all four sides.
     padding: 3em;
 }
 
 .box-2 {
-    /* Two values: top & bottom | left & right */
+    // Two values: top & bottom | left & right
     padding: 20% 5%;
 }
 
 .box-3 {
-    /* Three values: top | left & right | bottom. */
+    // Three values: top | left & right | bottom.
     padding: 15px 10px 20px;
 }
 
 .box-4 {
-    /* Four values:  top | right | bottom | left*/
+    // Four values:  top | right | bottom | left
     padding: 0 10px 2em 1em;
 }
 
 .box-5 {
-    /* Global values */
-    padding: inherit;  /* OR initial OR unset */
+    // Global values
+    padding: inherit;  // OR initial OR unset
+}
+*/
+
+.box-parent {
+    background-color: #000000;  /* Black */
+    width: 300px;
+    height: 300px;
+}
+
+.box-child {
+    background-color: #ffff00;  /* Yellow */
+    width: 100px;
+    height: 280px;
+    padding: 10px; /* Applies to all four sides. */
 }
