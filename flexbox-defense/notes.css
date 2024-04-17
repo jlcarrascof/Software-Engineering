@@ -33,3 +33,16 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* Wave 4 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.tower-group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
