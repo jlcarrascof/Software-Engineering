@@ -85,3 +85,16 @@
     display: flex;
     flex-direction: column-reverse;
 }
+
+/* Wave 8 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    flex-direction: column;
+    }
+
+.tower-group-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
