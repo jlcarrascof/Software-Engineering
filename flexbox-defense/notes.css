@@ -65,3 +65,13 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Wave 6 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Wave 7 / 12 */
