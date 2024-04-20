@@ -111,3 +111,15 @@
     grid-column-start: span 3;
     grid-column-end: 6;
 }
+
+/* Stage 10 / 28 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column: 4/6;
+}
