@@ -16,6 +16,11 @@
 
 #pink-box {
     background-color: #ff69b4;
+    bottom: 0;
+    left: -20px;
+    position: relative;
+    right: 0;
+    top: 0px;
 }
 
 #blue-box {
