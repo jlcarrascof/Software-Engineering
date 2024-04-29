@@ -290,3 +290,17 @@
 }
 
 /* Stage 24 / 28 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+#poison {
+    grid-area: 1 / 5 / 6 / 6;
+}
