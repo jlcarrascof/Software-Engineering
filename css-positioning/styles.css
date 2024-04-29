@@ -18,10 +18,9 @@
 #pink-box {
     background-color: #ff69b4;
     position: absolute;
-    top: 60px;
+    bottom: 60px;
 }
 
 #blue-box {
     background-color: #00eeee;
-    position: absolute;
 }
