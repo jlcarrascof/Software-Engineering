@@ -312,3 +312,16 @@
     grid-template-columns: 75px 3fr 2fr;
     grid-template-rows: 100%;
 }
+
+/* Stage 26 / 28 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50px auto auto auto 1fr;
+}
+
+#water {
+    grid-column: 1 / 6;
+    grid-row: 5 / 6;
+}
