@@ -339,3 +339,8 @@
 }
 
 /* Stage 28 / 28 */
+
+#garden {
+    display: grid;
+    grid-template: 5fr 50px / 20% 1fr;
+}
