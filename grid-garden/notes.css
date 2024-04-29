@@ -136,3 +136,17 @@
     grid-column-start: 2;
     grid-column-end: span 3;
 }
+
+/* Stage 12 / 28 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-row-start: 2;
+}
+
+/* Stage 13 / 28 */
