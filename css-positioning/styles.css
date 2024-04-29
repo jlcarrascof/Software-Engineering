@@ -1,6 +1,5 @@
 .container {
     background-color: #2b2d2f;
-    position: relative;
 }
 
 .element {
@@ -17,8 +16,8 @@
 
 #pink-box {
     background-color: #ff69b4;
-    position: absolute;
     bottom: 60px;
+    position: absolute;
 }
 
 #blue-box {
