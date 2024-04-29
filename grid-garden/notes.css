@@ -175,3 +175,28 @@
 }
 
 /* Stage 15 / 28 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column: 2/6;
+    grid-row: 1/6;
+}
+
+/* Stage 16 / 28 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-area: 1 / 2 / 4 / 6;
+}
+
+/* Stage 17 / 28 */
