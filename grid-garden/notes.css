@@ -280,3 +280,13 @@
     grid-template-columns: 100px 3em 40%;
     grid-template-rows: 20% 20% 20% 20% 20%;
 }
+
+/* Stage 23 / 28 */
+
+#garden {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* Stage 24 / 28 */
