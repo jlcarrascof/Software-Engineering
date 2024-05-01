@@ -1,0 +1,25 @@
+.container {
+    background-color: #2b2d2f;
+}
+
+.element {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 280px;
+    font-size: 36px;
+}
+
+#yellow-box {
+    background-color: #ffff00;
+}
+
+#pink-box {
+    background-color: #FF69B4;
+    position: sticky;
+    top: 60px;
+}
+
+#blue-box {
+    background-color: #00eeee;
+}

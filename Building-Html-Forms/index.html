@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building HTML Forms</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Add user</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName">
+            <br />
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName">
+            <br />
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email">
+            <br />
+            <label for="status">Status:</label>
+            <select name="status" id="status">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select>
+            <br />
+            <p>Choose your favorite programming language:</p>
+            <label for="html">HTML</label>
+            <input type="radio" name="language" id="html" value="HTML">
+            <label for="css">CSS</label>
+            <input type="radio" name="language" id="css" value="CSS">
+            <label for="js">JavaScript</label>
+            <input type="radio" name="language" id="js" value="JavaScript">            <br />
+            <label for="comment">Comments:</label>
+            <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+            <br />
+            <label for="currentDate">Current Date:</label>
+            <input type="date" name="currentDate" id="currentDate">
+            <br />
+            <label for="newsletter">Sign up for newsletter?</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <br />
+            <label for="conditions">Agree to terms and conditions</label>
+            <input type="checkbox" name="conditions" id="conditions">
+            <br />
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

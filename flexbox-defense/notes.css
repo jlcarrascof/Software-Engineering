@@ -1,0 +1,194 @@
+/* Wave 1 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Wave 2 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tower-group-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tower-group-3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Wave 3 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.tower-group-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Wave 4 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.tower-group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Wave 5 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.tower-group-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tower-group-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wave 6 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Wave 7 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tower-group-2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Wave 8 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    flex-direction: column;
+    }
+
+.tower-group-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Wave 9 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tower-group-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Wave 10 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tower-1-1 {
+    order: 0;
+}
+
+.tower-1-2 {
+    order: 2;
+}
+
+.tower-1-3 {
+    order: 1;
+}
+
+.tower-group-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tower-2-1 {
+    order: 1;
+}
+
+.tower-2-2 {
+    order: 0;
+}
+
+.tower-2-3 {
+    order: 2;
+}
+
+/* Wave 11 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tower-1-1 {
+    align-self: flex-end;
+}
+
+.tower-1-3 {
+    align-self: flex-end;
+}
+
+/* Wave 12 / 12 */
+
+.tower-group-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tower-1-1 {
+    order: 0;
+}
+
+.tower-1-2 {
+    align-self: center;
+}
+
+.tower-1-3 {
+    align-self: center;
+}
+
+.tower-1-4 {
+    align-self: center;
+}
+
+.tower-1-5 {
+    align-self: flex-end;
+}
