@@ -22,3 +22,10 @@ function addTwoNumbers(a, b) {
 console.log(addTwoNumbers(3,8));
 
 // Number 3
+function substractTwoNumbers(num1, num2) {
+    let substract = num1 - num2;
+    let message = "The result of substract " + num1 + " minus " + num2 + " is: " + substract;
+    return message;
+}
+
+console.log(substractTwoNumbers(15, 5));
