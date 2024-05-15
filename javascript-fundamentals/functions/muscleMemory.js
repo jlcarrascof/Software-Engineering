@@ -29,3 +29,12 @@ function substractTwoNumbers(num1, num2) {
 }
 
 console.log(substractTwoNumbers(15, 5));
+
+// Number 4
+function multiplyTwoNumbers(a, b) {
+    let multiply = a * b;
+    let message = "The result of multiply " + a + " by " + b + " is: " + multiply;
+    return message;
+}
+
+console.log(multiplyTwoNumbers(5, 8));
