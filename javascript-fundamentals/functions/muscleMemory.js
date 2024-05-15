@@ -77,3 +77,17 @@ function findFirstAndLast(arr) {
 }
 
 console.log(findFirstAndLast([5, 8, 7, 12]));
+
+// Number 8
+
+function addTwoArrays(arr1, arr2) {
+    let finalArray = [];
+    for (let i = 0; i < arr1.length; i++) {
+        finalArray.push(arr1[i] + arr2[i]);
+    }
+    return "The result of adding arr1 " + arr1 + " with arr2 " + arr2 + " is " + finalArray;
+}
+
+console.log(addTwoArrays([8, 5, 3, 7], [6, 4, 8, 2]));
+
+// Number 9
