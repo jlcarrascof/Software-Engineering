@@ -38,3 +38,12 @@ function multiplyTwoNumbers(a, b) {
 }
 
 console.log(multiplyTwoNumbers(5, 8));
+
+// Number 5
+function divideTwoNumbers(num1, num2) {
+    let divide = num1 / num2;
+    let message = "The result of divide " + num1 + " by " + num2 + " is: " + divide;
+    return message;
+}
+
+console.log(divideTwoNumbers(12, 2));
