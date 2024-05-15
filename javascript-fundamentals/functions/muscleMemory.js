@@ -47,3 +47,15 @@ function divideTwoNumbers(num1, num2) {
 }
 
 console.log(divideTwoNumbers(12, 2));
+
+// Number 6
+function addArrayElements(arr) {
+    let sum = 0;
+    for (let i=0; i < arr.length; i++) {
+        sum+= arr[i];
+    }
+    let message = "Adding my array " + arr + " the result is: " + sum;
+    return message;
+}
+
+console.log(addArrayElements([5, 8, 7, 12]));
