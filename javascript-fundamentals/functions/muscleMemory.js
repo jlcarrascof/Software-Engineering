@@ -14,3 +14,11 @@ function sayGoodbye(name) {
 console.log(sayGoodbye('Peter'));
 
 // Number 2
+function addTwoNumbers(a, b) {
+    let sum = a + b;
+    return sum;
+}
+
+console.log(addTwoNumbers(3,8));
+
+// Number 3
