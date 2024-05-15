@@ -59,3 +59,21 @@ function addArrayElements(arr) {
 }
 
 console.log(addArrayElements([5, 8, 7, 12]));
+
+// Number 7
+
+function findFirstAndLast(arr) {
+    let firstElement = 0;
+    let lastElement = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (i === 0) {
+            firstElement = arr[i];
+        }
+        if (i === arr.length-1) {
+            lastElement = arr[arr.length-1];
+        }
+    }
+    return "The first element of my array is " + firstElement + " and the last one is " + lastElement + ".";
+}
+
+console.log(findFirstAndLast([5, 8, 7, 12]));
