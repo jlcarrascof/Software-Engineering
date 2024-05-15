@@ -91,3 +91,12 @@ function addTwoArrays(arr1, arr2) {
 console.log(addTwoArrays([8, 5, 3, 7], [6, 4, 8, 2]));
 
 // Number 9
+
+function howManyVowels(arr) {
+    let word = arr.toString();
+    let vowels = word.match(/[aeiou]/g);
+    let numVowels = vowels.length;
+    return "In the word " + arr + " you can found " + numVowels + " vowels.";
+}
+
+console.log(howManyVowels(["Javier Martinez"]));
