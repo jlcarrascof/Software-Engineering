@@ -100,3 +100,15 @@ function howManyVowels(arr) {
 }
 
 console.log(howManyVowels(["Javier Martinez"]));
+
+// Number 10
+function isContain(str) {
+    let word = 'fuck';
+    if (str.includes(word)) {
+        return "The word " + word + " it appears in the sentence " + str;
+    } else {
+        return "The word " + word + " doesn't appear in the sentence " + str;
+    }
+}
+
+console.log(isContain("The student has a lot of knowledge of Javascript."));
