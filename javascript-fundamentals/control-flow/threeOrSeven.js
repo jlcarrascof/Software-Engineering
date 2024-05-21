@@ -2,6 +2,8 @@ function threeOrSeven(num) {
     // your code here...
 
     // If version
+
+    /*
     if (num % 3 === 0) {
         return true;
     } else if (num % 7 === 0) {
@@ -9,6 +11,11 @@ function threeOrSeven(num) {
     } else {
         return false;
     }
+    */
+
+    // Without if version
+
+    return num % 3 === 0 || num % 7 === 0;
 
 }
 
