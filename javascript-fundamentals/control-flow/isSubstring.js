@@ -1,7 +1,12 @@
 function isSubstring(searchString, subString) {
     // your code here...
     let finalString = searchString.toLowerCase();
-    console.log(finalString.indexOf(subString));
+    let result = finalString.indexOf(subString);
+    if (result !== -1) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 console.log(isSubstring("The cat went to the store", "he cat went")); // => true
