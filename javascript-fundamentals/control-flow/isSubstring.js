@@ -1,7 +1,8 @@
 function isSubstring(searchString, subString) {
     // your code here...
-    let finalString = searchString.toLowerCase();
-    let result = finalString.indexOf(subString);
+    let finalSearchString = searchString.toLowerCase();
+    let finalSubString = subString.toLowerCase();
+    let result = finalSearchString.indexOf(finalSubString);
     if (result !== -1) {
         return true;
     } else {
