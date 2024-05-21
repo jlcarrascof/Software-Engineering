@@ -1,5 +1,15 @@
 function threeOrSeven(num) {
     // your code here...
+
+    // If version
+    if (num % 3 === 0) {
+        return true;
+    } else if (num % 7 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+
 }
 
 console.log(threeOrSeven(3));   // => true
