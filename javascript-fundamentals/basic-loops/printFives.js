@@ -14,7 +14,9 @@ function printFives(max) {
 
     // Without if
 
-
+    for (let i=0; i < max; i+=5) {
+        console.log(i)
+    }
 
 }
 
