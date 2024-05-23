@@ -1,11 +1,19 @@
 function logBetween(lowNum, highNum) {
 
-    // While version .
+    // While version.
 
+    /*
     let init = lowNum;
     while (init <= highNum) {
         console.log(init);
         init ++;
+    }
+    */
+
+    // For version.
+
+    for (let i=lowNum; i <= highNum; i++) {
+        console.log(i);
     }
 
 }
