@@ -1,4 +1,6 @@
 function printFives(max) {
+
+    /*
     // With if
 
     let init = 0
@@ -8,6 +10,11 @@ function printFives(max) {
         }
         init ++;
     }
+    */
+
+    // Without if
+
+
 
 }
 
