@@ -2,6 +2,15 @@ function dynamicFizzBuzz(max, num1, num2) {
 
     let resultArr = [];
 
+    for (let i = 0; i < max; i++) {
+        if (i % num1 === 0) {
+            if (i % num2 !== 0) {
+                resultArr.push(i);
+            }
+        } else if (i % num2 === 0) {
+            resultArr.push(i);
+        }
+    }
 
     return resultArr;
 }
