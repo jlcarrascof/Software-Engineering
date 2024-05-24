@@ -25,10 +25,8 @@ function leastCommonMultiple(num1, num2) {
     // Find MCM ....
 
     let number = 0;
-    let check = false;
     for (let i = 0; i < array1.length; i++) {
-        if (array1[i] !== 0) {
-            check = array2.includes(array1[i]);
+        if (array2.includes(array1[i])) {
             number = array1[i];
             break;
         }
