@@ -1,38 +1,18 @@
 function leastCommonMultiple(num1, num2) {
+    let finalNumber = 0;
+    let array = [];
 
-    let upperLimit = num1 * num2;
+    // First pass =
 
-    // Create the first list of elements.
-
-    array1 = [];
-    for (let i = 0; i <= upperLimit; i++) {
-        if (i % num1 ===0) {
-            array1.push(i);
-        }
-    }
-    console.log(array1)
-
-    // Create the second list of elements.
-
-    array2 = [];
-    for (let i = 0; i <= upperLimit; i++) {
-        if (i % num2 ===0) {
-            array2.push(i);
-        }
-    }
-    console.log(array2)
-
-    // Find MCM ....
-
-    let number = 0;
-    for (let i = 0; i < array1.length; i++) {
-        if (array2.includes(array1[i])) {
-            number = array1[i];
-            break;
+    for (let i=0; i <=100; i++) {
+        if (i % num1 === 0 && i !== 0) {
+            array.push(i);
         }
     }
 
-    console.log("MCM: " + number)
+    console.log("First array based in " + num1 + ":" + array)
+
+    return finalNumber;
 }
 
 leastCommonMultiple(4, 6);
