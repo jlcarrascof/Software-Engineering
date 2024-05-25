@@ -4,19 +4,13 @@ function isPrime(number) {
         return false;
     }
 
-    let control = 0;
-    for (let i = 2; i <= Math.sqrt(number); i++) {
+    for (let i = 2; i * i <= number; i++) {
         if (number % i === 0) {
-            control++;
+            return false;
         }
     }
 
-    if (control > 2) {
-        return false;
-    } else {
-        return true;
-    }
-
+    return true;
 }
 
 console.log(isPrime(2)); // => true
