@@ -1,4 +1,4 @@
-function logic(number) {
+function fibonacci(number) {
     let values = [1, 1];
 
     for (let i=0; i < number; i++) {
@@ -22,7 +22,7 @@ function logic(number) {
 
 }
 
-console.log(logic(0)); // []
-console.log(logic(1)); // [1]
-console.log(logic(6)); // [1, 1, 2, 3, 5, 8]
-console.log(logic(8)); // [1, 1, 2, 3, 5, 8, 13, 21]
+console.log(fibonacci(0)); // []
+console.log(fibonacci(1)); // [1]
+console.log(fibonacci(6)); // [1, 1, 2, 3, 5, 8]
+console.log(fibonacci(8)); // [1, 1, 2, 3, 5, 8, 13, 21]
