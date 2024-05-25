@@ -1,5 +1,8 @@
-function isPerfectSquare(num) {
+function isPerfectSquare(number) {
 
+    result = (Math.sqrt(number) % 1 === 0);
+
+    return result;
 }
 
 console.log(isPerfectSquare(1))     // true
