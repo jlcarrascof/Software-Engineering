@@ -1,18 +1,14 @@
 function hasVowel(str) {
 
-    const myArray = str.split("");
-    const vowels = "aeiou".split("");
+    const vowels = "aeiou";
 
-    let hasVowels = false;
-
-    for (let i=0; i < myArray.length; i++) {
-        if (myArray.includes(vowels[i])) {
-            hasVowels = true;
-            break;
+    for (let i=0; i < str.length; i++) {
+        if (vowels.includes(str[i].toLowerCase())) {
+            return true;
         }
     }
 
-    return hasVowels;
+    return false;
 
 }
 
