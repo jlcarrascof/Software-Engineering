@@ -15,16 +15,17 @@ function uncompress(word) {
         }
     }
 
+    return finalStr;
 }
 
 function addCaracters(str, number) {
-    let newStr = "";
+    var newStr = "";
     for (let i=0; i < number; i++) {
-        newStr = str + 1;
+        newStr = newStr + str;
     }
-
     return newStr;
 }
+
 
 console.log(uncompress('x3y4z2')); // 'xxxyyyyzz'
 console.log(uncompress('a5b2c4z1')); // 'aaaaabbccccz'
