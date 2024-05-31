@@ -1,6 +1,19 @@
 // Your code here
 function sillyString(str) {
 
+    let vowels = "aeiou";
+    let newWord = "";
+
+    for (let i = 0; i < str.length; i++) {
+        if (vowels.includes(str[i])) {
+            newWord += str[i] + "b" + str[i];
+        } else {
+            newWord += str[i];
+        }
+    }
+
+    return newWord;
+
 }
 
 console.log(sillyString('stop'));       // stobop
