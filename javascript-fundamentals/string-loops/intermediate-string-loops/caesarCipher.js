@@ -1,8 +1,15 @@
-// Feel free to use this variable:
-// const alphabet = "abcdefghijklmnopqrstuvwxyz";
-
 function caesarCipher(string, num) {
-    // your code here
+    const alphabet = "abcdefghijklmnopqrstuvwxyz";
+    let cipheredString = "";
+
+    for (let i = 0; i < string.length; i++) {
+        let x = alphabet.indexOf(string[i]);
+        let newIndex = (x + num) % alphabet.length;
+        let newChar = alphabet[newIndex];
+        cipheredString += newChar;
+    }
+
+    return cipheredString;
 }
 
 console.log(caesarCipher("apple", 1)); // "bqqmf"
