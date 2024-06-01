@@ -16,3 +16,5 @@ Software Engineering practice since scratch.
 05-21-2024: JavaScript Control flow
 
 05-24-2024: JavaScript Basic loops
+
+05-31-2024: JavaScript Intermediate string loops
