@@ -1,16 +1,18 @@
-function isPrime(number) {          // number = 5
-    if (number < 2) {                 // false
+function isPrime(number) {
+    // Base case: any numbers less than 2 are not prime
+    if (number < 2) {
       return false;
     }
 
-    let i = 2;                        // i = 2
-    while (i < number) {              // true
-      if (number % i === 0) {         // 5 % 2 === 0   false
+    let i = 2;  // start from base case
+    while (i < number) {   // do not include the number itself
+      if (number % i === 0) {   // check if i is a factor of the number
         return false;
       }
-      i++;                            // i = 3
+      i++;
     }
 
+    // number must be prime if it has not met any of the above conditions
     return true;
 }
 
