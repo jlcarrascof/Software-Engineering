@@ -8,3 +8,7 @@ function removeOranges(fruitArray) {
     }
     return fruitArray;
 }
+
+console.log(removeOranges(["apple", "banana", "orange", "peach", "orange", "pear"]));
+
+// ["apple", "banana", "peach", "pear"]);
