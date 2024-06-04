@@ -9,6 +9,6 @@ function removeOranges(fruitArray) {
     return fruitArray;
 }
 
-console.log(removeOranges(["apple", "banana", "orange", "peach", "orange", "pear"]));
-
+console.log("1.- ", removeOranges(["apple", "banana", "orange", "peach", "orange", "pear"]));
+console.log("2.- ", removeOranges(["orange", "apple", "banana", "orange", "orange", "pear", "apple"]));
 // ["apple", "banana", "peach", "pear"]);
