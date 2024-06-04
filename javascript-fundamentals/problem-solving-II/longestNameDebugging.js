@@ -1,7 +1,7 @@
 function longestName(names) {
 
     // Set the first name to be the longest
-    currentLongest = names[1];
+    currentLongest = names[0];
 
     // Check each other name in the array starting from the second
     for (let i = 2 ; i <= names.Length ; i++) {
