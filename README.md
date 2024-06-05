@@ -18,3 +18,5 @@ Software Engineering practice since scratch.
 05-24-2024: JavaScript Basic loops
 
 05-31-2024: JavaScript Intermediate string loops
+
+06-03-2024: Problem Solving II
