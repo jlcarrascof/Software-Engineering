@@ -1,6 +1,7 @@
-function combineArray(array1, array2) {
+function combineArray(arr1, arr2) {
     // your code here...
 
+    return arr1.concat(arr2);
 
 }
 
