@@ -1,24 +1,19 @@
 function firstAndLast(arr) {
+    // Verify if the array is empty.
+    if (arr.length === 0) return 0;
 
-    // Determine some keys conditions.
+    // Determine the quantity of the elements and if it is odd or even.
+    let numElements = arr.length;
+    let firstElement = arr[0];
+    let lastElement = arr[numElements - 1];
 
-    numElements = arr.length;
-    numPairs = false;
-    total = 0;
+    // If the element's number is odd, return the add.
     if (numElements % 2 === 0) {
-        numPairs = true;
-    }
-
-    // Return the values.
-
-    if (numPairs) {
-        total = arr[0] + arr[numElements - 1];
-        return total;
+        return firstElement + lastElement;
     } else {
-        total = arr[0] - arr[numElements - 1];
-        return total;
+        // If the element's number is even, return the substraction.
+        return firstElement - lastElement;
     }
-
 }
 
 console.log(firstAndLast([1, 2, 3, 4]));    // 5
