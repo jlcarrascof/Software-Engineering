@@ -1,5 +1,23 @@
 function firstAndLast(arr) {
 
+    // Determine some keys conditions.
+
+
+    numElements = arr.length;
+    numPairs = false;
+    total = 0;
+    if (numElements % 2 === 0) {
+        numPairs = true;
+    }
+
+    if (numPairs) {
+        total = arr[0] + arr[numElements - 1];
+        console.log("Total Par: ", total);
+        return total;
+    } else {
+
+    }
+
 }
 
 console.log(firstAndLast([1, 2, 3, 4]));    // 5
