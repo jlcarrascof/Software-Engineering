@@ -2,7 +2,6 @@ function firstAndLast(arr) {
 
     // Determine some keys conditions.
 
-
     numElements = arr.length;
     numPairs = false;
     total = 0;
@@ -10,12 +9,14 @@ function firstAndLast(arr) {
         numPairs = true;
     }
 
+    // Return the values.
+
     if (numPairs) {
         total = arr[0] + arr[numElements - 1];
-        console.log("Total Par: ", total);
         return total;
     } else {
-
+        total = arr[0] - arr[numElements - 1];
+        return total;
     }
 
 }
