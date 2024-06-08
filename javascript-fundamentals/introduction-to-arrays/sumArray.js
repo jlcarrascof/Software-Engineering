@@ -1,7 +1,13 @@
 function sumArray(array) {
     // your code here...
 
+    let sumTotal = 0;
 
+    for (let i=0; i < array.length; i++) {
+        sumTotal += array[i];
+    }
+
+    return sumTotal;
 
 }
 
