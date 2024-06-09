@@ -2,7 +2,7 @@ function productWithReduce(nums) {
     let product = 1;
 
     for (let i=0; i < nums.length; i++) {
-        product += nums[i];
+        product *= nums[i];
     }
 
     return product;
