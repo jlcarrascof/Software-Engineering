@@ -14,3 +14,5 @@ function yelledStrings(strings) {
 
     return yelled;
 }
+
+console.log(yelledStrings(['hello', 'how', 'are', 'you?'])); // ['HELLO!', 'HOW!', 'ARE!', 'YOU?!']
