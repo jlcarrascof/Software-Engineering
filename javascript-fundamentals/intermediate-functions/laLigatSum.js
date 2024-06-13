@@ -18,3 +18,7 @@ function laligatSum(n) {
 
     return sum;
 }
+
+console.log(laligatSum(10)); // 17
+console.log(laligatSum(20)); // 77
+console.log(laligatSum(100)); // 1060
