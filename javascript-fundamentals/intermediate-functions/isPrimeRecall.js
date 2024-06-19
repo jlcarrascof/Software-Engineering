@@ -10,20 +10,15 @@ function isPrime(number) {
         return true;
     }
 
-    let flag = 0;
-    for (let i = 3; i < Math.sqrt(number); i++) {
+    for (let i = 2; i <= Math.sqrt(number); i++) {
 
         if (number % i === 0) {
-            flag++;
+            return false;
         }
 
     }
 
-    if (flag > 2) {
-        return false;
-    } else {
-        return true;
-    }
+    return true;
 
 }
 
