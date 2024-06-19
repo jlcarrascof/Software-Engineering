@@ -22,6 +22,16 @@ function isPrime(number) {
 
 function choosePrimes(arr) {
 
+    arrPrimes = [];
+
+    for (let i=0; i < arr.length; i++) {
+        if (isPrime(arr[i])) {
+            arrPrimes.push(arr[i]);
+        }
+    }
+
+    return arrPrimes;
+
 }
 
 console.log(choosePrimes([36, 48, 9, 13, 19])); // [ 13, 19 ]
