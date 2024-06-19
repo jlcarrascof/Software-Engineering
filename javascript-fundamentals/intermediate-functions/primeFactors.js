@@ -25,7 +25,9 @@ function primeFactors(num) {
     let resultArray = [];
 
     for (let i=2; i <= num; i++) {
-
+        if (isPrime(i) && (num % i === 0)) {
+            resultArray.push(i);
+        }
     }
 
     return resultArray;
