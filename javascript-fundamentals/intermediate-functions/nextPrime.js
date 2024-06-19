@@ -21,7 +21,14 @@ function isPrime(number) {
 }
 
 function nextPrime(num) {
-
+    next = num + 1;
+    while (true) {
+        if (isPrime(next) === false) {
+            next++;
+        } else {
+            return next;
+        }
+    }
 }
 
 console.log(nextPrime(2)); // 3
