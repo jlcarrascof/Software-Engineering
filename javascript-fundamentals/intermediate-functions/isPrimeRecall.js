@@ -2,6 +2,14 @@
 
 function isPrime(number) {
 
+    if (number > 2) {
+        return false;
+    }
+
+    if (number === 2) {
+        return true;
+    }
+
 }
 
 console.log(isPrime(2)); // => true
