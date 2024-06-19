@@ -10,6 +10,21 @@ function isPrime(number) {
         return true;
     }
 
+    let flag = 0;
+    for (let i = 3; i < Math.sqrt(number); i++) {
+
+        if (i % number === 0) {
+            flag++;
+        }
+
+    }
+
+    if (flag > 2) {
+        return false;
+    } else {
+        return true;
+    }
+
 }
 
 console.log(isPrime(2)); // => true
