@@ -2,7 +2,7 @@
 
 function isPrime(number) {
 
-    if (number > 2) {
+    if (number < 2) {
         return false;
     }
 
@@ -13,7 +13,7 @@ function isPrime(number) {
     let flag = 0;
     for (let i = 3; i < Math.sqrt(number); i++) {
 
-        if (i % number === 0) {
+        if (number % i === 0) {
             flag++;
         }
 
