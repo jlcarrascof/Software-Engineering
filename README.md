@@ -20,3 +20,5 @@ Software Engineering practice since scratch.
 05-31-2024: JavaScript Intermediate string loops
 
 06-03-2024: Problem Solving II
+
+06-20-2024: Finishing Problem Solving II section.
