@@ -20,6 +20,7 @@ function isPrime(number) {
 
 }
 
+
 function isAntiPrime(num) {
 
 }
