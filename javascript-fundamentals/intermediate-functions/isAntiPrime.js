@@ -9,7 +9,13 @@ function countDivisors(num) {
 }
 
 function isAntiPrime(number) {
-
+    const numDivisors = countDivisors(number);
+    for (let i = 1; i < number; i++) {
+        if (countDivisors(i) >= numDivisors) {
+            return false;
+        }
+    }
+    return true;
 }
 
 console.log(isAntiPrime(24))   // true
