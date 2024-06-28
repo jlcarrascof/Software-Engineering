@@ -1,7 +1,14 @@
 // your code here
 function firstVowel(str) {
 
+    let vowels = "aeiou";
+    for (let i=0; i < str.length; i++) {
+        if (vowels.includes(str[i])) {
+            return str[i];
+        }
+    }
 
+    return null;
 
 }
 
