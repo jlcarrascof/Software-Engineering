@@ -4,6 +4,16 @@ function hasDoubleLetter(str) {
         return null;
     }
 
+    let prevChar = str[0];
+    for (let i=1; i < str.length; i++) {
+        if (prevChar === str[i]) {
+            return true;
+        } else {
+            prevChar = str[i];
+        }
+    }
+
+    return false;
 }
 
 console.log(hasDoubleLetter('deer')); // true
