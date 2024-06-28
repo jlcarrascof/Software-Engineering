@@ -1,6 +1,8 @@
 // your code here
 function firstVowel(str) {
 
+
+
 }
 
 console.log(firstVowel('battery')); // 'a'
