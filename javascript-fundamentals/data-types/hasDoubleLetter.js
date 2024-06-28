@@ -1,4 +1,3 @@
-// your code here
 function hasDoubleLetter(str) {
     if (typeof str !== "string") {
         return null;
