@@ -10,7 +10,7 @@ function avgVal(arr) {
         sumValues+= arr[i];
     }
 
-    return average = sumValues / arr.length;
+    return sumValues / arr.length;
 
 }
 
