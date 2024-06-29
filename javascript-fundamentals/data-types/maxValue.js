@@ -5,7 +5,7 @@ function maxValue(arr) {
         return null;
     }
 
-    let bigger = arr[0];
+    let bigger = -Infinity;
 
     for (let i=0; i < arr.length; i++) {
         if (bigger < arr[i+1]) {
