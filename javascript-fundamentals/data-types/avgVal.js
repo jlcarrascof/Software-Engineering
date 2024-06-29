@@ -5,6 +5,12 @@ function avgVal(arr) {
         return null;
     }
 
+    let sumValues = 0;
+    for (let i=0; i < arr.length; i++) {
+        sumValues+= arr[i];
+    }
+
+    return average = sumValues / arr.length;
 
 }
 
