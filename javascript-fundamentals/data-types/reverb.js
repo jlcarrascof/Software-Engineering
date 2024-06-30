@@ -1,5 +1,9 @@
 function reverb(str) {
 
+    if (typeof str !== 'string') {
+        return null;
+    }
+
 }
 
 console.log(reverb('running')); // runninging
