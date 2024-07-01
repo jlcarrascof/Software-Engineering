@@ -26,7 +26,7 @@ function prevPrime(num) {
         return null;
     }
 
-    prevNumber = 0;
+    prevNumber = -Infinity;
 
     for (let i = 2; i < num; i++) {
 
