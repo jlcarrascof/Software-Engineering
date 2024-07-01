@@ -1,5 +1,42 @@
+function isPrime(number) {
+
+    if (number < 2) {
+        return false;
+    }
+
+    if (number === 2) {
+        return true;
+    }
+
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+
+        if (number % i === 0) {
+            return false;
+        }
+
+    }
+
+    return true;
+
+}
+
 function prevPrime(num) {
 
+    if (num <= 2) {
+        return null;
+    }
+
+    prevNumber = 0;
+
+    for (let i = 2; i < num; i++) {
+
+        if (isPrime(i)) {
+            prevNumber = i;
+        }
+
+    }
+
+    return prevNumber;
 }
 
 console.log(prevPrime(32)); // 31
