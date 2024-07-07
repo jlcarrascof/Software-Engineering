@@ -1,5 +1,16 @@
 // Your code here
+function alternatingWords(arr) {
 
+    for (let i=0; i < arr.length; i++) {
+        if (i === 0 || i % 2 === 0) {
+            arr[i] = arr[i].toUpperCase();
+        } else {
+            arr[i] = arr[i].toLowerCase();
+        }
+    }
+
+    return arr;
+}
 
 let words1 = ['Belka', 'STRELKA', 'laika', 'DEZIK', 'Tsygan'];
 alternatingWords(words1);
