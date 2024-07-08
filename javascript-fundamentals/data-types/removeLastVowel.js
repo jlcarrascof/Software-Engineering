@@ -3,7 +3,7 @@ function removeLastVowel(word) {
 
     let vowels = "aeiouAEIOU";
     let lastVowel = false;
-    let position = 0;
+    let position = -Infinity;
     for (let i=0; i <= word.length; i++) {
         if (vowels.includes(word[i])) {
             lastVowel = true;
