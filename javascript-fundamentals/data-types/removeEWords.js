@@ -6,29 +6,29 @@ function removeEWords(str) {
     let newWord = "";
     let newSentence = "";
     let hasE = false;
-    for (let i=0; i < str.length; i++) {
 
+    for (let i = 0; i < str.length; i++) {
         if (!separator.includes(str[i])) {
-            if (!charFind.includes(str[i]) && hasE === false) {
-                newWord += str[i]
+            if (!charFind.includes(str[i]) && !hasE) {
+                newWord += str[i];
             } else {
                 newWord = "";
                 hasE = true;
             }
         } else {
             if (!charFind.includes(newWord)) {
-                if (str[i] === " ") {
-                    newSentence = newSentence + newWord + " ";
-                } else {
-                    newSentence = newSentence + newWord;
-                }
+                newSentence += newWord + " ";
             }
             hasE = false;
             newWord = "";
         }
     }
 
-    return newSentence;
+    if (!charFind.includes(newWord)) {
+        newSentence += newWord;
+    }
+
+    return newSentence.trim();
 
 }
 
