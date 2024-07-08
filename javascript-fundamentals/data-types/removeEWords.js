@@ -5,10 +5,16 @@ function removeEWords(str) {
     let charFind = "eE";
     let newWord = "";
     let newSentence = "";
+    let hasE = false;
     for (let i=0; i < str.length; i++) {
 
         if (!separator.includes(str[i])) {
-            newWord += str[i]
+            if (!charFind.includes(str[i]) && hasE === false) {
+                newWord += str[i]
+            } else {
+                newWord = "";
+                hasE = true;
+            }
         } else {
             if (!charFind.includes(newWord)) {
                 if (str[i] === " ") {
@@ -17,6 +23,8 @@ function removeEWords(str) {
                     newSentence = newSentence + newWord;
                 }
             }
+            hasE = false;
+            newWord = "";
         }
     }
 
