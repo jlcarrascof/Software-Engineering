@@ -22,3 +22,5 @@ Software Engineering practice since scratch.
 06-03-2024: Problem Solving II
 
 06-20-2024: Finishing Problem Solving II section.
+
+07-08-2024: Finishing Data Types.
