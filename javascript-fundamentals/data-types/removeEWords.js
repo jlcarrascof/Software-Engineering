@@ -1,5 +1,26 @@
 // your code here
-function removeEWords(word) {
+function removeEWords(str) {
+
+    let separator = " ";
+    let charFind = "eE";
+    let newWord = "";
+    let newSentence = "";
+    for (let i=0; i < str.length; i++) {
+
+        if (!separator.includes(str[i])) {
+            newWord += str[i]
+        } else {
+            if (!charFind.includes(newWord)) {
+                if (str[i] === " ") {
+                    newSentence = newSentence + newWord + " ";
+                } else {
+                    newSentence = newSentence + newWord;
+                }
+            }
+        }
+    }
+
+    return newSentence;
 
 }
 
