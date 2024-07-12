@@ -2,6 +2,7 @@ const logBetweenStepper = function(min, max, step) {
 
     if (min > max) {
         console.log("Error!! Min is higher Max")
+        return;
     }
 
     for (let i=min; i <= max; i+=step) {
