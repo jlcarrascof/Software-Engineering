@@ -7,7 +7,7 @@ const evenNumbers = function(max) {
         return arr;
     }
 
-    for (let i = 1; i < max; i++) {
+    for (let i = 2; i < max; i++) {
         if (i % 2 === 0) {
             arr.push(i);
         }
