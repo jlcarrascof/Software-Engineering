@@ -4,7 +4,7 @@ const logBetweenStepper = function(min, max, step) {
         console.log("Error!! Min is higher Max")
     }
 
-    for (let i=min; i <= max; step++) {
+    for (let i=min; i <= max; i+=step) {
         console.log(i);
     }
 
