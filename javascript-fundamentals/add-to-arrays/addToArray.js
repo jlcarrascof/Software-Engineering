@@ -1,6 +1,12 @@
 function addToArray(location, element, arr) {
     // Your code here
-
+    if (location === "FRONT") {
+        arr.unshift(element);
+    } else if (location === "BACK") {
+        arr.push(element);
+    } else {
+        console.log("ERROR");
+    }
 }
 
 testArray = [1,2,3]
