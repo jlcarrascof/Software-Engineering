@@ -1,4 +1,14 @@
+const logBetweenStepper = function(min, max, step) {
 
+    if (min > max) {
+        console.log("Error!! Min is higher Max")
+    }
+
+    for (let i=min; i <= max; step++) {
+        console.log(i);
+    }
+
+}
 
 
 // Examples:
