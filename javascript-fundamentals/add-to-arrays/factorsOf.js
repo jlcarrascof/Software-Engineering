@@ -1,4 +1,17 @@
 // tu código aquí
+const factorsOf = function(num) {
+
+    let arr = [];
+
+    for (let i=1; i <= num; i++) {
+        if (num % i === 0) {
+            arr.push(i);
+        }
+    }
+
+    return arr;
+
+}
 
 console.log(factorsOf(5)); // [ 1, 5 ]
 console.log(factorsOf(8)); // [ 1, 2, 4, 8 ]
