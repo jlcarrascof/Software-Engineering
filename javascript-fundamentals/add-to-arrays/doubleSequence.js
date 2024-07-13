@@ -1,5 +1,25 @@
 // Your code here
+const doubleSequence = function(base, length) {
 
+    let arr = [];
+    let prevElem = 0;
+
+    if (length <= 0) {
+        return arr;
+    }
+
+    for (let i = 0; i < length; i++) {
+        if (i === 0) {
+            arr.push(base)
+            prevElem = base;
+        } else {
+            prevElem *= 2;
+            arr.push(prevElem);
+        }
+    }
+
+    return arr;
+}
 
 
 console.log(doubleSequence(7, 3));  // [7, 14, 28]
