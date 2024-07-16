@@ -3,19 +3,13 @@ const unique = function(arr) {
 
     let finalArray = [];
 
-    for (let i=0; i < arr.length; i++) {
-        if (finalArray.length !== 0) {
-            if (!finalArray.includes(arr[i])) {
-                finalArray.push(arr[i]);
-            }
-
-        } else {
+    for (let i = 0; i < arr.length; i++) {
+        if (!finalArray.includes(arr[i])) {
             finalArray.push(arr[i]);
         }
     }
 
     return finalArray;
-
 }
 
 
