@@ -1,5 +1,19 @@
 // Your code here
+const commonFactors = function(num1, num2) {
 
+    let finalArray = [];
+
+    let minNumber = Math.min(num1, num2);
+
+    for (let i = 1; i <= minNumber; i++) {
+        if (minNumber % i === 0) {
+            finalArray.push(i);
+        }
+    }
+
+    return finalArray;
+
+}
 
 
 
