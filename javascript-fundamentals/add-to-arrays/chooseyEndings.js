@@ -1,10 +1,10 @@
 // Your code here
-const chooseyEndings = function(arr, word) {
+const chooseyEndings = function(arr, suffix) {
 
     let finalArr = [];
 
     for (let i=0; i < arr.length; i++) {
-        if (arr[i].endsWith(word)) {
+        if (arr[i].endsWith(suffix)) {
             finalArr.push(arr[i]);
         }
     }
