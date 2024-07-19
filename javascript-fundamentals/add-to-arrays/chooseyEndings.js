@@ -1,5 +1,8 @@
 // Your code here
 const chooseyEndings = function(arr, suffix) {
+    if (!Array.isArray(arr)) {
+        return [];
+    }
 
     let finalArr = [];
 
