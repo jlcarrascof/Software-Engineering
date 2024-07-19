@@ -2,15 +2,11 @@
 const commonFactors = function(num1, num2) {
 
     let finalArray = [];
-
     let minNumber = Math.min(num1, num2);
-    let maxNumber = Math.max(num1, num2);
 
     for (let i = 1; i <= minNumber; i++) {
-        if (minNumber % i === 0) {
-            if (maxNumber % i === 0) {
-                finalArray.push(i);
-            }
+        if (num1 % i === 0 && num2 % i === 0) {
+            finalArray.push(i);
         }
     }
 
