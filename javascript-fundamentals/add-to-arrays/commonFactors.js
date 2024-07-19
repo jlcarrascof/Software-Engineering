@@ -4,18 +4,19 @@ const commonFactors = function(num1, num2) {
     let finalArray = [];
 
     let minNumber = Math.min(num1, num2);
+    let maxNumber = Math.max(num1, num2);
 
     for (let i = 1; i <= minNumber; i++) {
         if (minNumber % i === 0) {
-            finalArray.push(i);
+            if (maxNumber % i === 0) {
+                finalArray.push(i);
+            }
         }
     }
 
     return finalArray;
 
 }
-
-
 
 console.log(commonFactors(50, 30));            // [1, 2, 5, 10]
 console.log(commonFactors(8, 4));              // [1, 2, 4]
