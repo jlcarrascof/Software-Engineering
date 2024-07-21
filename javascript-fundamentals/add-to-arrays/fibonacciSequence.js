@@ -2,6 +2,22 @@
 
 const fibonacciSequence = function(limit) {
 
+    let finalArray = [];
+
+    for (let i=0; i < limit; i++) {
+        if (i === 0) {
+            finalArray.push(i+1);
+        }
+        if (i === 1) {
+            finalArray.push(i);
+        }
+        if (i > 1) {
+            finalArray.push(finalArray[i-1] + finalArray[i-2]);
+        }
+    }
+
+    return finalArray;
+
 }
 
 console.log(fibonacciSequence(4));  // [ 1, 1, 2, 3 ]
