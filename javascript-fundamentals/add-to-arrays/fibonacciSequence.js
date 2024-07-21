@@ -7,11 +7,9 @@ const fibonacciSequence = function(limit) {
     for (let i=0; i < limit; i++) {
         if (i === 0) {
             finalArray.push(i+1);
-        }
-        if (i === 1) {
+        } else if (i === 1) {
             finalArray.push(i);
-        }
-        if (i > 1) {
+        } else {
             finalArray.push(finalArray[i-1] + finalArray[i-2]);
         }
     }
