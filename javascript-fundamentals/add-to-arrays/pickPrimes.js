@@ -22,6 +22,18 @@ function isPrime(number) {
 
 function pickPrimes(array) {
     // your code here
+
+    let finalArray = [];
+
+    for (let i=0; i < array.length; i++) {
+        if (isPrime(array[i])) {
+            finalArray.push(array[i]);
+        }
+    }
+
+    return finalArray;
+
+
 }
 
 
