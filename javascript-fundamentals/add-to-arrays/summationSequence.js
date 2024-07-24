@@ -1,10 +1,9 @@
 function summationSequence(start, length) {
-    // your code here
     let resultArray = [start];
 
-    for (let i=1; i < length; i++) {
-        previous = resultArray[i - 1];
-        adding = calcAdding(previous);
+    for (let i = 1; i < length; i++) {
+        let previous = resultArray[i - 1];
+        let adding = calcAdding(previous);
         resultArray.push(adding);
     }
 
@@ -12,11 +11,10 @@ function summationSequence(start, length) {
 }
 
 function calcAdding(number) {
-    sum = 0;
-    for (let i=1; i <= number; i++) {
+    let sum = 0;
+    for (let i = 1; i <= number; i++) {
         sum += i;
     }
-
     return sum;
 }
 
