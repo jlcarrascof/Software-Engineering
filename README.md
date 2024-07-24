@@ -24,3 +24,5 @@ Software Engineering practice since scratch.
 06-20-2024: Finishing Problem Solving II section.
 
 07-08-2024: Finishing Data Types.
+
+07-23-2024: Finishing Add to Arrays section.
